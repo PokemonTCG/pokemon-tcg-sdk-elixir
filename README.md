@@ -1,5 +1,10 @@
 # Pokémon TCG SDK
 
+[![Hex.pm](https://img.shields.io/hexpm/dt/plug.svg?maxAge=2592000)](https://hex.pm/packages/pokemon_tcg_sdk)
+[![Build Status](https://travis-ci.org/PokemonTCG/pokemon-tcg-sdk-elixir.svg?branch=master)](https://travis-ci.org/PokemonTCG/pokemon-tcg-sdk-elixir)
+[![Code Climate](https://codeclimate.com/github/PokemonTCG/pokemon-tcg-sdk-elixir/badges/gpa.svg)](https://codeclimate.com/github/PokemonTCG/pokemon-tcg-sdk-elixir)
+[![Coverage Status](https://coveralls.io/repos/github/PokemonTCG/pokemon-tcg-sdk-elixir/badge.svg?branch=master)](https://coveralls.io/github/PokemonTCG/pokemon-tcg-sdk-elixir?branch=master)
+
 This is the Pokémon TCG SDK Elixir implementation. It is a wrapper around the Pokémon TCG API of [pokemontcg.io](http://pokemontcg.io/).
 
 ## Installation

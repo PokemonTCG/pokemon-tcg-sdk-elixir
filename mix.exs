@@ -58,7 +58,7 @@ defmodule Pokemon.Mixfile do
      maintainers: ["William Volin"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir",
-              "Docs" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir"}]
+              "Website" => "https://pokemontcg.io/"}]
   end
 
 end

@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/sets/invalid"
+    },
+    "response": {
+      "body": "{\"status\":\"404\",\"error\":\"Not Found\"}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 02:53:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "36",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6f5f136350554105cffcc481465a341e1472698392; expires=Fri, 01-Sep-17 02:53:12 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Request-Id": "1d931513-88da-4f61-ab81-fa5672b35ae5",
+        "X-Runtime": "0.013799",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db56e3739e82629-DFW"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]

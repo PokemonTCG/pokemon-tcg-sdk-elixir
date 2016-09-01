@@ -1,0 +1,14 @@
+[
+  {
+    "request": {
+      "url": "https://api.pokemontcg.io/v1/cards?page=1&pageSize=100"
+    },
+    "response": {
+      "status_code": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{'cards':[]}"
+    }
+  }
+]

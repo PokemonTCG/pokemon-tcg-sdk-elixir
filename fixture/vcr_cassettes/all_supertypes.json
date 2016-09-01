@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/supertypes?"
+    },
+    "response": {
+      "body": "{\"supertypes\":[\"Energy\",\"Pokémon\",\"Trainer\"]}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 03:01:39 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "46",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6df68509477fbc2351051d68941195ed1472698899; expires=Fri, 01-Sep-17 03:01:39 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"a15322c4e50150131d4ad98fa446c174\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "e6605d69-23bc-46ba-848f-8ec4488e5817",
+        "X-Runtime": "0.017189",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db57a98d58158f7-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

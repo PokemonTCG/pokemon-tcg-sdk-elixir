@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/subtypes?"
+    },
+    "response": {
+      "body": "{\"subtypes\":[\"Item\",\"Supporter\",\"\",\"EX\",\"Technical Machine\",\"Rocket's Secret Machine\",\"Restored\",\"BREAK\",\"Basic\",\"MEGA\",\"Level Up\",\"Stadium\",\"Stage 1\",\"LEGEND\",\"Pokémon Tool\",\"Stage 2\",\"Special\"]}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 03:01:23 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "197",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=df13397836cbf06b90ae1fe194619e65b1472698883; expires=Fri, 01-Sep-17 03:01:23 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"4e15cf9530afc5200546db1e74a94f46\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "e25cf6ad-f242-4b3b-a171-0a39b05ee35a",
+        "X-Runtime": "0.016101",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db57a33ca8b2629-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

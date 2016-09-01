@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/sets?standardLegal=true"
+    },
+    "response": {
+      "body": "{\"sets\":[{\"code\":\"xy0\",\"name\":\"Kalos Starter Set\",\"series\":\"XY\",\"totalCards\":39,\"standardLegal\":true,\"releaseDate\":\"11/08/2013\"},{\"code\":\"xy1\",\"name\":\"XY\",\"series\":\"XY\",\"totalCards\":140,\"standardLegal\":true,\"releaseDate\":\"02/05/2014\"},{\"code\":\"xy2\",\"name\":\"Flashfire\",\"series\":\"XY\",\"totalCards\":100,\"standardLegal\":true,\"releaseDate\":\"05/07/2014\"},{\"code\":\"xy3\",\"name\":\"Furious Fists\",\"series\":\"XY\",\"totalCards\":111,\"standardLegal\":true,\"releaseDate\":\"08/13/2014\"},{\"code\":\"xy4\",\"name\":\"Phantom Forces\",\"series\":\"XY\",\"totalCards\":119,\"standardLegal\":true,\"releaseDate\":\"11/05/2014\"},{\"code\":\"xy5\",\"name\":\"Primal Clash\",\"series\":\"XY\",\"totalCards\":160,\"standardLegal\":true,\"releaseDate\":\"02/04/2015\"},{\"code\":\"dc1\",\"name\":\"Double Crisis\",\"series\":\"XY\",\"totalCards\":34,\"standardLegal\":true,\"releaseDate\":\"03/25/2015\"},{\"code\":\"xy6\",\"name\":\"Roaring Skies\",\"series\":\"XY\",\"totalCards\":108,\"standardLegal\":true,\"releaseDate\":\"05/06/2015\"},{\"code\":\"xy7\",\"name\":\"Ancient Origins\",\"series\":\"XY\",\"totalCards\":98,\"standardLegal\":true,\"releaseDate\":\"08/12/2015\"},{\"code\":\"xy8\",\"name\":\"BREAKthrough\",\"series\":\"XY\",\"totalCards\":162,\"standardLegal\":true,\"releaseDate\":\"11/04/2015\"},{\"code\":\"xy9\",\"name\":\"BREAKpoint\",\"series\":\"XY\",\"totalCards\":123,\"standardLegal\":true,\"releaseDate\":\"02/03/2016\"},{\"code\":\"g1\",\"name\":\"Generations\",\"series\":\"XY\",\"totalCards\":115,\"standardLegal\":true,\"releaseDate\":\"02/22/2016\"},{\"code\":\"xy10\",\"name\":\"Fates Collide\",\"series\":\"XY\",\"totalCards\":124,\"standardLegal\":true,\"releaseDate\":\"05/02/2016\"},{\"code\":\"xy11\",\"name\":\"Steam Siege\",\"series\":\"XY\",\"totalCards\":114,\"standardLegal\":true,\"releaseDate\":\"08/03/2016\"}]}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 02:53:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1629",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6f5f136350554105cffcc481465a341e1472698392; expires=Fri, 01-Sep-17 02:53:12 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"ef2fd161becba3c49cf02668d8cd22d2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "c8bdd713-e9d5-40e9-b662-7ddfe4e8cc74",
+        "X-Runtime": "0.011287",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db56e3aaa132629-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

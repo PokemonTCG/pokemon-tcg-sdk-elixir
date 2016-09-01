@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/sets/g1"
+    },
+    "response": {
+      "body": "{\"set\":{\"code\":\"g1\",\"name\":\"Generations\",\"series\":\"XY\",\"totalCards\":115,\"standardLegal\":true,\"releaseDate\":\"02/22/2016\"}}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 02:53:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "121",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6f5f136350554105cffcc481465a341e1472698392; expires=Fri, 01-Sep-17 02:53:12 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"3cef22723898c9887902e76656487d52\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "263b52f4-dcb7-474d-a56f-b93509792c56",
+        "X-Runtime": "0.006772",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db56e3829fc2629-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

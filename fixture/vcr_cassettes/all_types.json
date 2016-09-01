@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pokemontcg.io/v1/types?"
+    },
+    "response": {
+      "body": "{\"types\":[\"Colorless\",\"Dark\",\"Darkness\",\"Dragon\",\"Fairy\",\"Fighting\",\"Fire\",\"Grass\",\"Lightning\",\"Metal\",\"Psychic\",\"Water\"]}",
+      "headers": {
+        "Date": "Thu, 01 Sep 2016 02:53:12 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "122",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6f5f136350554105cffcc481465a341e1472698392; expires=Fri, 01-Sep-17 02:53:12 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Etag": "W/\"fdfa0b3b07118de2608212bb578fc058\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "9d007005-32b0-4bc1-85fa-8c1a72ab6fb0",
+        "X-Runtime": "0.037988",
+        "Vary": "Origin",
+        "Via": "1.1 vegur",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2db56e3baa1a2629-DFW"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

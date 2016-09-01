@@ -8,6 +8,8 @@ defmodule Pokemon.Mixfile do
       elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
+      description: description(),
+			package: package(),
       deps: deps(),
       preferred_cli_env: [
         vcr: :test,
@@ -38,7 +40,25 @@ defmodule Pokemon.Mixfile do
     [
       {:httpoison, "~> 0.9.0"},
       {:exjsx, "~> 3.2"},
+      {:ex_doc, ">= 0.0.0", only: :dev},
       {:exvcr, "~> 0.7", only: :test}
     ]
   end
+
+  defp description do
+    """
+    API wrapper around the Pokémon TCG API of pokemontcg.io
+    """
+  end
+
+  defp package do
+    [# These are the default files included in the package
+     name: :pokemon_tcg_sdk,
+     files: ["lib", "config",  "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     maintainers: ["William Volin"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir",
+              "Docs" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir"}]
+  end
+
 end

@@ -5,7 +5,7 @@ defmodule Pokemon.Mixfile do
     [
       app: :pokemon,
       version: "1.0.0",
-      elixir: "~> 1.3",
+      elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: description(),

@@ -15,7 +15,7 @@ The package can be installed as:
 
     ```elixir
     def deps do
-      [{:pokemon, "~> 1.0", hex: :pokemon_tcg_sdk}]
+      [{:pokemon, "~> 1.0"}]
     end
     ```
 

@@ -53,7 +53,7 @@ defmodule Pokemon.Mixfile do
 
   defp package do
     [# These are the default files included in the package
-     name: :pokemon_tcg_sdk,
+     name: :pokemon,
      files: ["lib", "config",  "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
      maintainers: ["William Volin"],
      licenses: ["MIT"],

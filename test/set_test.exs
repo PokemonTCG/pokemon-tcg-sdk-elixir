@@ -13,9 +13,9 @@ defmodule Pokemon.SetTest do
       assert set.code === "g1"
       assert set.name === "Generations"
       assert set.series === "XY"
-      assert set.totalCards === 115
-      assert set.standardLegal === true
-      assert set.releaseDate === "02/22/2016"
+      assert set.total_cards === 115
+      assert set.standard_legal === true
+      assert set.release_date === "02/22/2016"
     end
   end
 
@@ -37,7 +37,7 @@ defmodule Pokemon.SetTest do
     use_cassette "filtered_sets" do
       sets = Pokemon.Set.where(standardLegal: true)
 
-      assert List.first(sets).standardLegal === true
+      assert List.first(sets).standard_legal === true
       assert List.first(sets) |> is_map == true
     end
   end

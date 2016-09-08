@@ -4,8 +4,8 @@ defmodule Pokemon.Mixfile do
   def project do
     [
       app: :pokemon,
-      version: "1.0.1",
-      elixir: "~> 1.2",
+      version: "1.0.2",
+      elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: description(),
@@ -24,7 +24,7 @@ defmodule Pokemon.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:httpoison, :logger]]
+    [applications: [:httpoison, :proper_case, :logger]]
   end
 
   # Dependencies can be Hex packages:
@@ -40,6 +40,7 @@ defmodule Pokemon.Mixfile do
     [
       {:httpoison, "~> 0.9.0"},
       {:exjsx, "~> 3.2"},
+      {:proper_case, "~> 0.1.1"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:exvcr, "~> 0.7", only: :test}
     ]

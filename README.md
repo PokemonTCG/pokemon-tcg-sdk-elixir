@@ -27,6 +27,15 @@ The package can be installed as:
     end
     ```
 
+## Heroku
+
+If you recieve a dependency issue on heroku from this package, create an elixir_buildpac.config in the root directory of your project with the following code:
+
+  ```
+  erlang_version=19.0.2
+  elixir_version=1.3.2
+  ```
+
 ### Modules
 
     Card

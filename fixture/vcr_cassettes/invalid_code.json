@@ -11,17 +11,17 @@
     "response": {
       "body": "{\"status\":\"404\",\"error\":\"Not Found\"}",
       "headers": {
-        "Date": "Thu, 01 Sep 2016 02:53:12 GMT",
+        "Date": "Thu, 08 Sep 2016 00:56:53 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "36",
         "Connection": "keep-alive",
-        "Set-Cookie": "__cfduid=d6f5f136350554105cffcc481465a341e1472698392; expires=Fri, 01-Sep-17 02:53:12 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
-        "X-Request-Id": "1d931513-88da-4f61-ab81-fa5672b35ae5",
-        "X-Runtime": "0.013799",
+        "Set-Cookie": "__cfduid=dac5017afe709a39570adfa084ae4e8921473296213; expires=Fri, 08-Sep-17 00:56:53 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "X-Request-Id": "53e1fb27-358e-4ed3-bb5f-7f6b98775d62",
+        "X-Runtime": "0.006984",
         "Vary": "Origin",
         "Via": "1.1 vegur",
         "Server": "cloudflare-nginx",
-        "CF-RAY": "2db56e3739e82629-DFW"
+        "CF-RAY": "2dee7176570058f7-DFW"
       },
       "status_code": 404,
       "type": "ok"

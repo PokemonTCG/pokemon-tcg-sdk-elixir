@@ -15,20 +15,20 @@ defmodule Pokemon.CardTest do
       card = Pokemon.Card.find("xy7-57")
       assert card.id === "xy7-57"
       assert card.name === "Giratina-EX"
-      assert card.nationalPokedexNumber === 487
-      assert card.imageUrl === "https://s3.amazonaws.com/pokemontcg/xy7/57.png"
+      assert card.national_pokedex_number === 487
+      assert card.image_url === "https://s3.amazonaws.com/pokemontcg/xy7/57.png"
       assert card.subtype === "EX"
       assert card.supertype === "Pokémon"
       assert card.ability.name === "Renegade Pulse"
       assert card.ability.text === "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Mega Evolution Pokémon."
       assert card.hp === "170"
-      assert card.retreatCost === ["Colorless","Colorless","Colorless"]
+      assert card.retreat_cost === ["Colorless","Colorless","Colorless"]
       assert card.number === "57"
       assert card.artist === "PLANETA"
       assert card.rarity === "Rare Holo EX"
       assert card.series === "XY"
       assert card.set === "Ancient Origins"
-      assert card.setCode === "xy7"
+      assert card.set_code === "xy7"
       assert card.text === ["When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."]
       assert card.types === ["Dragon"]
       assert Enum.count(card.attacks) > 0 # Attacks should exist
@@ -37,7 +37,7 @@ defmodule Pokemon.CardTest do
       assert attack.name == "Chaos Wheel"
       assert attack.text == "Your opponent can't play any Pokémon Tool, Special Energy, or Stadium cards from his or her hand during his or her next turn."
       assert attack.damage == "100"
-      assert attack.convertedEnergyCost == 4
+      assert attack.converted_energy_cost == 4
       weakness = List.first(card.weaknesses)
       assert weakness.type == "Fairy"
       assert weakness.value == "×2"

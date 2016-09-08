@@ -11,22 +11,22 @@
     "response": {
       "body": "{\"supertypes\":[\"Energy\",\"Pokémon\",\"Trainer\"]}",
       "headers": {
-        "Date": "Thu, 01 Sep 2016 03:01:39 GMT",
+        "Date": "Thu, 08 Sep 2016 00:56:52 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "46",
         "Connection": "keep-alive",
-        "Set-Cookie": "__cfduid=d6df68509477fbc2351051d68941195ed1472698899; expires=Fri, 01-Sep-17 03:01:39 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
+        "Set-Cookie": "__cfduid=dffb2e77141d1e11443d5bb06270e27631473296212; expires=Fri, 08-Sep-17 00:56:52 GMT; path=/; domain=.pokemontcg.io; HttpOnly",
         "X-Frame-Options": "SAMEORIGIN",
         "X-Xss-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Etag": "W/\"a15322c4e50150131d4ad98fa446c174\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e6605d69-23bc-46ba-848f-8ec4488e5817",
-        "X-Runtime": "0.017189",
+        "X-Request-Id": "824d6ea7-f0dc-4265-9da5-b65c0118f8f5",
+        "X-Runtime": "0.012513",
         "Vary": "Origin",
         "Via": "1.1 vegur",
         "Server": "cloudflare-nginx",
-        "CF-RAY": "2db57a98d58158f7-DFW"
+        "CF-RAY": "2dee7170f6e458f7-DFW"
       },
       "status_code": 200,
       "type": "ok"

@@ -20,7 +20,9 @@ defmodule Pokemon do
   def process_response_body(body) do
     body
     |> IO.iodata_to_binary
+    |> JSX.decode!([{:labels, :binary}])
+    |> ProperCase.to_snake_case
+    |> JSX.encode!
     |> JSX.decode([{:labels, :atom}])
-
   end
 end

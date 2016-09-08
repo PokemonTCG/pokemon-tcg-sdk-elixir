@@ -24,7 +24,7 @@ defmodule Pokemon.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:httpoison, :logger]]
+    [applications: [:httpoison, :proper_case, :logger]]
   end
 
   # Dependencies can be Hex packages:
@@ -40,6 +40,7 @@ defmodule Pokemon.Mixfile do
     [
       {:httpoison, "~> 0.9.0"},
       {:exjsx, "~> 3.2"},
+      {:proper_case, "~> 0.1.1"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:exvcr, "~> 0.7", only: :test}
     ]

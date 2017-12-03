@@ -38,7 +38,7 @@ defmodule Pokemon.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.9.0"},
+      {:httpoison, "~> 0.9"},
       {:exjsx, "~> 3.2"},
       {:proper_case, "~> 0.1.1"},
       {:ex_doc, ">= 0.0.0", only: :dev},
@@ -53,13 +53,17 @@ defmodule Pokemon.Mixfile do
   end
 
   defp package do
-    [# These are the default files included in the package
-     name: :pokemon,
-     files: ["lib", "config",  "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
-     maintainers: ["William Volin"],
-     licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir",
-              "Website" => "https://pokemontcg.io/"}]
+    [
+      name: :pokemon,
+      # These are the default files included in the package
+      files: ["lib", "config",  "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      maintainers: ["William Volin"],
+      licenses: ["MIT"],
+      links: %{
+        "GitHub" => "https://github.com/PokemonTCG/pokemon-tcg-sdk-elixir",
+        "Website" => "https://pokemontcg.io/"
+      }
+    ]
   end
 
 end
